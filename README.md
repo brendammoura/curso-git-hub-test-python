@@ -98,10 +98,10 @@ Esse fluxo representa:
 
 ---
 
-## Ver os últimos commits da branch com Git:
+## Ver os últimos commits da branch com Git
 git log
 
 ---
 
-## Pegar as modificações de outros programadores no código:
+## Pegar as modificações de outros programadores no código
 git pull origin master
