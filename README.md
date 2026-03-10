@@ -114,6 +114,8 @@ git log
 ---
 
 ## Verifica as modificações de outros programadores no código
+- Baixa atualizações do repositório remoto para o repositório local
+
 git pull origin master
 
 ---
