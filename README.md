@@ -98,7 +98,7 @@ git remote -v
 ---
 
 ## Fluxo básico de trabalho com Git
-git add . > git commit -m "mensagem" > git push
+git add  > git commit -m "mensagem" > git push
 
 Esse fluxo representa:
 
@@ -155,3 +155,55 @@ git reset
 
 git checkout
 
+---
+
+## Lidando com conflitos de código
+- Realiza a verificação de onde está ocorrendo o conflito;
+- Corrige o conflito;
+- Adiciona (git add) > realiza o commit (git commit -m) > envia ao servidor novamente (git push origin master).
+
+## Baixando repositórios
+Exemplos de repositórios para utilizar:
+- [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x.git)
+- [Laravel](https://github.com/laravel/laravel.git)
+- [free-programming-books](https://github.com/EbookFoundation/free-programming-books.git)
+- [public-apis](https://github.com/public-apis/public-apis.git)
+- [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms.git)
+
+Como baixar/usar esse repositório:
+- Clica em Code;
+- Pode baixar em Download ZIP ou usando o terminal.
+
+Para usar o terminal:
+- Clica em Code;
+- Copia o link https;
+- Abre o Terminal;
+- Digita git clone URL-DO-REPOSITÓRIO;
+- Clica Enter;
+- Ao acessar a pasta do projeto e o VSCode está a pasta do projeto.
+
+---
+
+## Dicas para uso do terminal
+- Para adicionar todos os arquivos modificados: git add .
+- Fazer git add e commit na mesma linha: git commit -am "insere a mensagem" e clica Enter.
+
+## Dicas extras:
+- Clone o que puder;
+- Pulls constantes (para quem trabalha com mais pessoas);
+- Sem medo de commitar, quantos mais commits melhor para voltar para linhas antigas do seu repositório;
+- Mensagens de commits decentes, seja claro na mensagem para facilitar a verificação;
+- Push com segurança, não é legal ficar voltando commits, então só dê Push na hora certa;
+- Contribua no GitHub;
+- Use constantemente o GitHub, acompanhe códigos de outros programadores, siga amigos, etc;
+- ReadMe Elegante, faça páginas informativas, produza uma documentação boa;
+- Cuidado com vazamentos, arquivos que tem senhas ou acessos! Não realize commit deles (crie o .gitignore).
+
+
+---
+
+## Arquivos importantes
+- README
+- GITIGNORE
+
+OBS: ver no repositório do Laravel o README e o .gitignore para obter as informações.
