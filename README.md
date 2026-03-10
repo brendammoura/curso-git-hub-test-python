@@ -95,3 +95,8 @@ Esse fluxo representa:
 1. adicionar mudanças
 2. criar um commit
 3. enviar para o GitHub
+
+---
+
+## Ver os últimos commits da branch com Git:
+git log
