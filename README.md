@@ -115,9 +115,11 @@ git diff
 
 ## Pega tudo que foi escrito no log e condensa de maneira mais simples
 git shortlog
+ou
+git log --oneline
 
 ---
-
+## Dicas de como usar teclas no git log
 | Tecla  | Função          |
 | ------ | --------------- |
 | ↓ ou ↑ | rolar linhas    |
