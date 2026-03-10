@@ -119,6 +119,7 @@ ou
 git log --oneline
 
 ---
+
 ## Dicas de como usar teclas no git log
 | Tecla  | Função          |
 | ------ | --------------- |
@@ -126,3 +127,13 @@ git log --oneline
 | Space  | próxima página  |
 | b      | página anterior |
 | q      | sair            |
+
+---
+
+## Para limpar a tela do terminal
+clear
+
+---
+
+## Para mostrar tudo que foi feito no commit, ver modificações no arquivo
+git show
