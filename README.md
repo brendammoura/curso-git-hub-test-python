@@ -103,5 +103,24 @@ git log
 
 ---
 
-## Pegar as modificações de outros programadores no código
+## Pegar as modificações de outros programadores no código, quem modificou
 git pull origin master
+
+---
+
+## Mostrar as diferenças do código anterior e do código atual no terminal
+git diff
+
+---
+
+## Pega tudo que foi escrito no log e condensa de maneira mais simples
+git shortlog
+
+---
+
+| Tecla  | Função          |
+| ------ | --------------- |
+| ↓ ou ↑ | rolar linhas    |
+| Space  | próxima página  |
+| b      | página anterior |
+| q      | sair            |
