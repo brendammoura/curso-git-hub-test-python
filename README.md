@@ -1,55 +1,67 @@
-# Curso Git Hub Test Python
+# Curso Git Hub Test Python 
+## Projeto Estudos de Git e GitHub
 
-Projeto criado durante o curso de Git e testes com Python.
-Anotações de estudos da CTFL.
-
-## Objetivo
-Aprender Git, GitHub e automação de testes, utilizando novos meios de estudos para CTFL.
+Prática de controle de versão utilizando Git e GitHub, incluindo criação de repositórios, commits, versionamento de arquivos, documentação em README e publicação de projetos.
 
 ## Tecnologias
 - Python
 - Git
 - GitHub
+- Visual Studio Code
+
+---
+
+## Aprendizados
+- Inicialização de repositórios Git
+- Controle de versão com commits
+- Publicação de projetos no GitHub
+- Leitura de arquivos em Python
+
+---
+
+## Autora
+Brenda Moura
+
+---
 
 # Comandos básicos do Git
 
 Este documento reúne alguns dos principais comandos utilizados no terminal para trabalhar com Git e GitHub.
 
-## Verificar versão do Git
+## Verifica versão do Git
 
 Mostra a versão do Git instalada no computador:
 git --version
 
-
 ---
 
-## Inicializar um repositório
+## Inicializa um repositório
 
 Cria um novo repositório Git dentro da pasta do projeto:
 git init
 
 ---
 
-## Verificar o status do projeto
+## Verifica o status do projeto
 
 Mostra os arquivos modificados, novos ou prontos para commit:
 git status
 
 ---
 
-## Adicionar arquivos para o commit
+## Adiciona arquivos para o commit
 
 Adiciona arquivos para serem incluídos no próximo commit.
 
-Adicionar um arquivo específico:
+- Adiciona um arquivo específico:
 git add nome-do-arquivo
 
-Adicionar todos os arquivos modificados:
+- Adicionar todos os arquivos modificados:
 git add .
 
 ---
 
-## Criar um commit
+## Cria um commit
 
 Salva uma nova versão do projeto no histórico do Git:
 git commit -m "mensagem do commit"
@@ -59,7 +71,7 @@ git commit -m "adiciona README"
 
 ---
 
-## Conectar o repositório ao GitHub
+## Conecta o repositório ao GitHub
 
 Adiciona o repositório remoto (GitHub) ao projeto local:
 git remote add origin URL_DO_REPOSITORIO
@@ -69,7 +81,7 @@ git remote add origin https://github.com/usuario/repositorio.git
 
 ---
 
-## Enviar alterações para o GitHub
+## Envia alterações para o GitHub
 
 Envia os commits locais para o repositório remoto:
 git push origin master
@@ -78,7 +90,7 @@ git push origin main
 
 ---
 
-## Ver repositório remoto conectado
+## Verifica repositório remoto conectado
 
 Mostra os repositórios remotos vinculados ao projeto:
 git remote -v
@@ -86,41 +98,37 @@ git remote -v
 ---
 
 ## Fluxo básico de trabalho com Git
-git add .
-git commit -m "mensagem"
-git push
+git add . > git commit -m "mensagem" > git push
 
 Esse fluxo representa:
 
-1. adicionar mudanças
-2. criar um commit
-3. enviar para o GitHub
+1. Adiciona mudanças
+2. Cria um commit
+3. Envia para o GitHub
 
 ---
 
-## Ver os últimos commits da branch com Git
+## Verifica os últimos commits da branch com Git
 git log
 
 ---
 
-## Pegar as modificações de outros programadores no código, quem modificou
+## Verifica as modificações de outros programadores no código
 git pull origin master
 
 ---
 
-## Mostrar as diferenças do código anterior e do código atual no terminal
+## Mostra as diferenças do código anterior e do código atual no terminal
 git diff
 
 ---
 
-## Pega tudo que foi escrito no log e condensa de maneira mais simples
-git shortlog
-ou
-git log --oneline
+## Une tudo que foi escrito no log e condensa de maneira mais simples
+git shortlog ou git log --oneline
 
 ---
 
-## Dicas de como usar teclas no git log
+## Teclas no git log
 | Tecla  | Função          |
 | ------ | --------------- |
 | ↓ ou ↑ | rolar linhas    |
@@ -130,10 +138,18 @@ git log --oneline
 
 ---
 
-## Para limpar a tela do terminal
+## Limpa o terminal
 clear
 
 ---
 
-## Para mostrar tudo que foi feito no commit, ver modificações no arquivo
+## Mostra tudo que foi feito no commit e modificações no arquivo
 git show
+
+---
+
+## Reverte modificações
+git reset 
+
+git checkout
+
