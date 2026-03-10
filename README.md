@@ -149,7 +149,7 @@ git show
 ---
 
 ## Reverte modificações
-git reset valor-hash
+git reset 
 
 git checkout
 
