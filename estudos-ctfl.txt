@@ -1,0 +1,25 @@
+Prova: 13/04/2026 
+Período: 05/02/2026 a 10/04/2026 
+Carga: 5 dias por semana (segunda a sexta)
+Base: Syllabus Oficial ISTQB CTFL v4.0 + Curso Preparatório Certificação CTFL (Udemy)
+Sobre o exame:
+40 questões | 1 ponto por questão
+65% de acertos | mínimo de 26 questões para aprovação
+60 minutos de prova (tempo total considerando preenchimento de dados, resolução de questões e preenchimento de gabarito)
+Níveis K (níveis mais baixos = perguntas diretas | níveis mais altos = perguntas complexas, longas)
+K1 = lembrar
+K2 = entender
+K3 = aplicar
+Capítulos mais difíceis: 3, 4 e 5
+Quantidade de questões por capítulo:
+Capítulo 1: 8 questões
+Capítulo 2: 6 questões
+Capítulo 3: 4 questões (+ difícil)
+Capítulo 4: 11 questões (+ difícil)
+Capítulo 5: 9 questões (+ difícil)
+Capítulo 6: 2 questões
+ISO 29119
+ISO 25010
+ISO 20246
+Estudar por: Syllabus, Glossário de Termos, simulados, quizzes, flashcards, etc.
+
